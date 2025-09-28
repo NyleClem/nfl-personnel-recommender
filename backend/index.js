@@ -6,7 +6,7 @@ const { Pool } = pkg;
 
 // Create DB pool (connects to db service inside docker-compose)
 const pool = new Pool({
-  host: "db", // docker service name, not localhost
+  host: "db",          // docker service name, not localhost
   user: "postgres",
   password: "postgres",
   database: "nfl",
